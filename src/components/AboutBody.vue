@@ -32,7 +32,7 @@
         ivanmonte11.07@iutlook.com
       </li>
     </ul>
-    <img src="profit.png" alt="Photo Ivan" class="centered-image"/>
+    <img src="ivanProf.jpeg" alt="Photo Ivan" class="centered-image"/>
     <ul id="skills">
       <h2>Skills</h2>
       <li><h3>Markup and styling languages</h3></li>
@@ -72,10 +72,14 @@ p {
 }
 
 .centered-image {
-  border-radius: 150px;
   max-width: 100%;
-  margin-top: 80px;
+  margin-top: 12px;
   display: block;
+}
+
+img {
+  width: 300px;
+  margin-left: 10%;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,7 +90,7 @@ p {
   }
 
   img {
-        margin-left: 25%;
+        margin-left: 30%;
         width: 250px;
       }
 
